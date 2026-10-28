@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kickstream"
+version = "1.0.4"
+authors = [{ name = "Aether Protocol Labs", email = "dev@aetherprotocol.io" }]
+description = "High-Performance Kick.com API & Kasada Telemetry Client (Sub-30ms)"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search"
+]
+dependencies = [
+    "httpx>=0.25.0",
+    "pydantic>=2.0.0"
+]

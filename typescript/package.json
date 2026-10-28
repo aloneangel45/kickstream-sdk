@@ -1,0 +1,19 @@
+{
+  "name": "kickstream-sdk",
+  "version": "1.0.4",
+  "description": "Enterprise Kick.com Live Stream & Kasada Telemetry Client (Sub-30ms)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["kick", "kick-api", "kasada", "telemetry", "scraper", "streaming"],
+  "author": "Aether Protocol Labs",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
